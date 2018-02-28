@@ -18,12 +18,12 @@ public class DummyEnvelopeBuilderProvider implements EnvelopeBuilderProvider {
     }
 
     @Override
-    public <T> Function<T, Envelope<T>> withMetadataFrom(final T envelope) {
+    public <T> Function<T, Envelope<T>> withMetadataFrom(final Envelope<T> envelope) {
         return null;
     }
 
     @Override
-    public <T> Function<T, Envelope<T>> withMetadataFrom(final T envelope, final String name) {
+    public <T> Function<T, Envelope<T>> withMetadataFrom(final Envelope<T> envelope, final String name) {
         return null;
     }
     
